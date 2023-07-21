@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    background-color: rgb(125, 80, 230);
+    background-image: url(/src/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo_div{
+    margin-left: 100px;
+    margin-top: 60px;
+
+    & img{
+        width: 250px;
+    }
+}
+
+.main{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.a_sec{
+    margin-left: 100px;
+    margin-top: 60px;
+    & img{
+        width: 805px;
+    }
+}
+
+.b_sec{
+    margin-left: 100px;
+    margin-top: 85px;
+    padding: 50px;
+
+    & .title{
+        color: white;
+        font-weight: bold;
+        font-size: 1.8rem;
+        line-height: 60px;
+    }
+    & .text_info{
+        color: white;
+        margin-top: 25px;
+        font-size: 1.2rem;
+        letter-spacing: 0.8px;
+    }
+}
+
+.register_btn{
+    margin-top: 30px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    width: 200px;
+    border: 0px;
+    color: rgb(125, 80, 230);
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 4px 8px 15px -2px rgba(0,0,0,0.88);
+    transition: .3s ease-in-out;
+
+    &:hover{
+        background-color: violet;
+        color: white;
+    }
+
+    &:active{
+        box-shadow: 4px 8px 25px -2px rgba(0,0,0,0.88);
+        transform: scale(0.99);
+    }
+}
+
+.social{
+    display: flex;
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.info{
+    margin-right: 50px;
+    & .info_dev{
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 0.99rem;
+    }
+}
+
+.elem{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 1040px;
+
+    & .github_icon{
+        font-size: 1.5rem;
+        margin-right: 25px;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            color: violet;
+            transform: scale(1.1) translateY(-3px);
+
+        }
+    }
+    
+
+    & .fb_icon{
+        font-size: 1.5rem;
+        margin-right: 25px;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            color: violet;
+            transform: scale(1.1) translateY(-3px);
+
+        }
+    }
+    & .tw_icon{
+        font-size: 1.5rem;
+        margin-right: 25px;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            color: violet;
+            transform: scale(1.1) translateY(-3px);
+
+        }
+    }
+    & .instg_icon{
+        font-size: 1.5rem;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            color: violet;
+            transform: scale(1.1) translateY(-3px);
+
+        }
+    }
+}
